@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    padding-top: 78px !important;
+}
+
+header {
+    nav {
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 13px 0;
+
+            .nav-left {
+                display: flex;
+                align-items: center;
+
+                input {
+                    padding: 8px 172px 8px 16px;
+                    border: 1px solid #70C05B;
+                    border-radius: 4px;
+                }
+
+                .btn-1 {
+                    margin: 0 40px 0 16px;
+                    width: 140px;
+                    height: 40px;
+                    display: flex;
+                    background: #70C05B;
+                    border-radius: 4px;
+                    padding: 8px;
+                    border: none;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    img {
+                        width: 24px !important;
+                        height: 24px !important;
+                    }
+
+                    p {
+                        padding-left: 8px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        /* identical to box height, or 24px */
+
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+
+                        /* Main/onSecondary */
+
+                        color: #FFFFFF;
+
+
+                        /* Inside auto layout */
+
+                        flex: none;
+                        order: 1;
+                        align-self: stretch;
+                        flex-grow: 1;
+                    }
+                }
+            }
+
+            .nav-right {
+                display: flex;
+                align-items: center;
+
+                .div {
+                    display: flex;
+
+                    .card-nav * {
+                        text-align: center;
+                    }
+
+                    .card-nav {
+                        align-items: center;
+                        display: grid;
+                        padding-right: 24px;
+                    }
+                }
+
+                .df {
+                    display: flex;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        /* or 24px */
+
+                        display: flex;
+                        align-items: center;
+
+                        /* onSurface */
+
+                        color: #232323;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#ll {
+    background-image: url(../images/abc.png);
+    background-color: #fff;
+
+    div {
+        padding: 2px 0 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            font-weight: 700;
+            font-size: 48px;
+            color: #414141;
+            line-height: 150%;
+        }
+
+        img {
+            height: 100%;
+        }
+    }
+
+
+}
+
+main {
+    background-color: #e5e5e5e5;
+}
+
+.begin {
+    padding-top: 76px;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        color: #606060;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-left: 16px;
+            width: 7px;
+            height: 13px;
+        }
+    }
+
+    .b {
+        padding-bottom: 40px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        /* identical to box height, or 54px */
+
+        /* Main/onSurface */
+
+        color: #414141;
+    }
+}
+
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+}
+
+#section_2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+}
+
+
+#buyOld {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+}
+
+// .card:hover {
+//     button {
+//         background-color: #FF6633;
+//     }
+//     color: white;
+// }
+
+#fgh {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+}
+
+.btns {
+    button {
+        background: #F3F2F1;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        /* or 18px */
+
+        /* Grayscale / Hardest */
+        border: none;
+        padding: 12px;
+        color: #606060;
+
+    }
+
+    button:hover {
+        background: #70C05B;
+        border-radius: 4px;
+        color: white;
+        transition: 0.5s;
+    }
+}
+
+.img {
+    margin-top: 24px;
+    margin-bottom: 120px;
+}
+
+.cards-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+
+    .card-1 {
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        background: #fff;
+
+        .card-1-b {
+            padding: 10px;
+        }
+
+        h1 {
+            padding: 10px 0;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 150%;
+            /* or 27px */
+            /* Main/onSurface */
+            color: #414141;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            // or 24px 
+            // Main/onSurface 
+            color: #414141;
+        }
+
+        button {
+            width: 150px;
+            color: #70C05B;
+            background: #E5FFDE;
+            border-radius: 4px;
+            border: none;
+            padding: 12px 0px;
+            margin-top: 10px;
+        }
+
+        h4 {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            /* identical to box height, or 18px */
+
+
+            /* Grayscale / Hard */
+
+            color: #8F8F8F;
+
+        }
+    }
+
+    .card-1:hover {
+        box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+
+        button {
+            background: #70C05B;
+            border-radius: 4px;
+            transition: 0.5s;
+            color: white;
+        }
+
+        transition: 0.5s;
+    }
+
+    padding-bottom: 80px;
+}
+
+footer {
+    background-image: url(../images/bgc-footer.png);
+    width: 100%;
+    height: 126px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
